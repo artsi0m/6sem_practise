@@ -1,0 +1,44 @@
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+
+% main.tex файл который компилируется и подключает за собой остальный
+% файлы с содержимым через input
+% При этом согласно моей же логике преамбула должна отстаться здесь.
+
+% Используем опцию emptystyle т.к. bsuir-std расширяет eskdxtext,
+% который без этой опции сделает рамку для чертежа даже на документе
+% с просто текстом.
+\documentclass[a4paper,emptystyle]{bsuir-std}
+
+
+\usepackage[sorting=none,backend=biber]{biblatex}
+% библиогорафия в last
+\usepackage{url}
+
+\usepackage{float}
+
+\addbibresource{Karakin6semPractise.bib}
+
+\usepackage{blindtext} % for test
+
+\begin{document}
+
+
+
+
+
+% Путь к месту где картинки лежат
+\graphicspath{ {..} }
+
+%%% Титульник
+\input{title}
+
+
+%%% Введение.
+%%\input{introduction}
+\input{test}
+
+\end{document}
