@@ -361,3 +361,6 @@ TSWLatexianTemp*
 *.glstex
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs,kicad,latex
+
+# My addition
+build/
