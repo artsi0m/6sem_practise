@@ -365,3 +365,4 @@ TSWLatexianTemp*
 # My addition
 build/
 main.pdf
+*.lck # kicad lock files
