@@ -428,7 +428,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "kicad-rs-converter",
+      "Interface_UART_GOST",
+      "Interface_UART"
+    ]
   },
   "meta": {
     "filename": "kicad-rs-converter.kicad_pro",
