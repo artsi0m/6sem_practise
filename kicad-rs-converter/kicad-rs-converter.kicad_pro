@@ -427,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Package_TO_SOT_SMD"
+    ],
     "pinned_symbol_libs": [
       "kicad-rs-converter",
       "Interface_UART_GOST",
@@ -532,13 +534,43 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN1",
+          "name": "PIN1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN2",
+          "name": "PIN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN3",
+          "name": "PIN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
