@@ -431,7 +431,7 @@
     "pinned_symbol_libs": [
       "kicad-rs-converter",
       "Interface_UART_GOST",
-      "Interface_UART"
+      "Device_GOST"
     ]
   },
   "meta": {
