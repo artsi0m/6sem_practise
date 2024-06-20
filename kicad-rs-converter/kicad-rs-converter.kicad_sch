@@ -1457,441 +1457,6 @@
 				)
 			)
 		)
-		(symbol "Interface_UART_GOST:5559ИН1Т"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "DD"
-				(at 0 30.48 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-					)
-				)
-			)
-			(property "Value" "5559ИН1Т"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_CDFP_RU:402.16-32"
-				(at 0 -33.02 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.integral.by/download/1254/5559_IN1T.pdf"
-				(at 1.27 13.97 0)
-				(effects
-					(font
-						(size 2.4892 2.4892)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RS-232 two trasmitters and two receivers"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5559ИН1Т_0_0"
-				(rectangle
-					(start -17.78 27.94)
-					(end 17.78 -27.94)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 12.7) (xy -3.81 12.7)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 27.94) (xy -3.81 -27.94)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 17.78 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 12.7) (xy 17.78 12.7)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 27.94) (xy 3.81 -27.94)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "RTX"
-					(at 0 22.86 0)
-					(effects
-						(font
-							(size 2.0066 2.0066)
-						)
-					)
-				)
-			)
-			(symbol "5559ИН1Т_1_1"
-				(pin passive line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "C1+"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 17.78 0)
-					(length 5.08)
-					(name "TXIN2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 22.86 0)
-					(length 5.08)
-					(name "TXIN1"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -22.86 7.62 0)
-					(length 5.08)
-					(name "~{RXOUT1}"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 7.62 180)
-					(length 5.08)
-					(name "RXIN1"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 22.86 180)
-					(length 5.08)
-					(name "~{TXOUT1}"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 -22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 -17.78 180)
-					(length 5.08)
-					(name "Vcc"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "C1-"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "C2+"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -22.86 0)
-					(length 5.08)
-					(name "C2-"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 22.86 -12.7 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 22.86 17.78 180)
-					(length 5.08)
-					(name "~{TXOUT2}"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 2.54 180)
-					(length 5.08)
-					(name "RXIN2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -22.86 2.54 0)
-					(length 5.08)
-					(name "~{RXOUT2}"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:BC327"
 			(pin_names
 				(offset 0) hide)
@@ -2222,6 +1787,441 @@
 				)
 			)
 		)
+		(symbol "kicad-rs-converter:MAX232_GOST"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DD"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Value" "MAX232_GOST"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_CDFP_RU:402.16-32"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.integral.by/download/1254/5559_IN1T.pdf"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 2.4892 2.4892)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RS-232 two trasmitters and two receivers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX232_GOST_0_0"
+				(rectangle
+					(start -17.78 27.94)
+					(end 17.78 -27.94)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 -2.54) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 12.7) (xy -3.81 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 27.94) (xy -3.81 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 17.78 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 12.7) (xy 17.78 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 27.94) (xy 3.81 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "RTX"
+					(at 0 22.86 0)
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(symbol "MAX232_GOST_1_1"
+				(pin passive line
+					(at -22.86 -7.62 0)
+					(length 5.08)
+					(name "C1+"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 17.78 0)
+					(length 5.08)
+					(name "TXIN2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -22.86 22.86 0)
+					(length 5.08)
+					(name "TXIN1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 7.62 0)
+					(length 5.08)
+					(name "~{RXOUT1}"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 7.62 180)
+					(length 5.08)
+					(name "RXIN1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 22.86 180)
+					(length 5.08)
+					(name "~{TXOUT1}"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "Vcc"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 5.08)
+					(name "C1-"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -17.78 0)
+					(length 5.08)
+					(name "C2+"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -22.86 0)
+					(length 5.08)
+					(name "C2-"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 17.78 180)
+					(length 5.08)
+					(name "~{TXOUT2}"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 2.54 180)
+					(length 5.08)
+					(name "RXIN2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 2.54 0)
+					(length 5.08)
+					(name "~{RXOUT2}"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power_GOST:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2505,6 +2505,12 @@
 		(uuid "772eccf6-2ce4-4809-b46a-7a5771a71e5f")
 	)
 	(junction
+		(at 181.61 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86896854-26c0-40e6-90ed-ae74bdad2faa")
+	)
+	(junction
 		(at 193.04 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2541,6 +2547,12 @@
 		(uuid "d5d0d46a-6219-49ae-ad68-158690f7bcbf")
 	)
 	(junction
+		(at 109.22 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddba4a71-6fd7-4492-81b5-e1ffd3014553")
+	)
+	(junction
 		(at 256.54 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2574,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 63.5) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054d6598-37dd-41f1-8565-c47f4572d3de")
+	)
+	(wire
+		(pts
 			(xy 152.4 116.84) (xy 170.18 116.84)
 		)
 		(stroke
@@ -2591,16 +2613,6 @@
 			(type default)
 		)
 		(uuid "09da0c91-d63f-4af4-bf15-48d0d32a124c")
-	)
-	(wire
-		(pts
-			(xy 86.36 64.77) (xy 86.36 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5239e1-cb78-4e8e-a760-42ef54c0cddf")
 	)
 	(wire
 		(pts
@@ -2641,6 +2653,16 @@
 			(type default)
 		)
 		(uuid "10f87577-c187-4a41-9954-c8a908663381")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 113.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fafb56-97d2-473e-b807-831d7f86ffe3")
 	)
 	(wire
 		(pts
@@ -2731,6 +2753,16 @@
 			(type default)
 		)
 		(uuid "3047d33f-8026-4ee1-963f-db2857d1074b")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3063f370-1389-40f4-aa0c-e46945c57dc2")
 	)
 	(wire
 		(pts
@@ -2864,13 +2896,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 181.61 86.36)
+			(xy 181.61 81.28) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4adae59e-0e93-490e-8ef5-ed3cf3090971")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4ae192-5d7d-498c-b195-869472904722")
 	)
 	(wire
 		(pts
@@ -3094,6 +3136,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 25.4) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8995df43-6729-4f0e-9722-d8df5ef1ffb9")
+	)
+	(wire
+		(pts
 			(xy 76.2 179.07) (xy 76.2 184.15)
 		)
 		(stroke
@@ -3254,6 +3306,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 64.77) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b769efd8-900f-427b-9e00-632fa05db055")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab0703f-47a1-4d62-8b04-0a9ca0448236")
+	)
+	(wire
+		(pts
 			(xy 195.58 36.83) (xy 189.23 36.83)
 		)
 		(stroke
@@ -3264,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 25.4) (xy 113.03 25.4)
+			(xy 101.6 25.4) (xy 109.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4227,7 +4299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART_GOST:5559ИН1Т")
+		(lib_id "kicad-rs-converter:MAX232_GOST")
 		(at 109.22 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4821,7 +4893,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7805"
+		(property "Value" "LM7805_TO220_GOST"
 			(at 223.52 13.97 0)
 			(effects
 				(font
