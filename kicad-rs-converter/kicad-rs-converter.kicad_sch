@@ -4821,7 +4821,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7805_TO220_GOST"
+		(property "Value" "LM7805"
 			(at 223.52 13.97 0)
 			(effects
 				(font
