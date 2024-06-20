@@ -431,8 +431,7 @@
     "pinned_symbol_libs": [
       "kicad-rs-converter",
       "Interface_UART_GOST",
-      "Device_GOST",
-      "Regulator_Linear_GOST"
+      "Device_GOST"
     ]
   },
   "meta": {
