@@ -428,7 +428,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Package_TO_SOT_SMD"
+      "Package_TO_SOT_SMD",
+      "Package_SO"
     ],
     "pinned_symbol_libs": [
       "kicad-rs-converter",

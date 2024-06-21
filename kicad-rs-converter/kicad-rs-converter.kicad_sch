@@ -4088,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_CDFP_RU:402.16-32"
+		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
 			(at 119.38 260.35 0)
 			(effects
 				(font
@@ -4265,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_CDFP_RU:Н02.8-1В"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 275.59 168.91 0)
 			(effects
 				(font
