@@ -337,7 +337,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "DD"
+		(property "Reference" "DA"
 			(at 0 30.48 0)
 			(effects
 				(font
@@ -772,7 +772,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "DD"
+		(property "Reference" "DA"
 			(at 0 17.78 0)
 			(effects
 				(font
