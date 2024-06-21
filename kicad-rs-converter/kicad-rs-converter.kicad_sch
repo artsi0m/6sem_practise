@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "bc93e02f-9da6-4af9-a56b-db2eb76f1927")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(date "2024-06-20")
 		(comment 2 "Корякин")
