@@ -428,7 +428,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Package_SO"
+      "Package_SO",
+      "TerminalBlock_Phoenix"
     ],
     "pinned_symbol_libs": [
       "kicad-rs-converter",
