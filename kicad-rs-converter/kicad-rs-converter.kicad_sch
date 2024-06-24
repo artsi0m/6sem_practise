@@ -327,156 +327,6 @@
 				)
 			)
 		)
-		(symbol "Device_GOST:CP"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP"
-				(at 0.635 -3.175 0)
-				(effects
-					(font
-						(size 2.0066 2.0066)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_*:CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP_0_1"
-				(polyline
-					(pts
-						(xy -3.9878 -0.762) (xy 3.9878 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.9878 0.762) (xy 3.9878 0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.0828 3.7592) (xy -2.0828 1.7272)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.0668 2.6924) (xy -3.0988 2.6924)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device_GOST:HL_LED"
 			(pin_numbers hide)
 			(pin_names
@@ -4788,7 +4638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 90.17 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4814,7 +4664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 88.265 57.15 0)
 			(effects
 				(font
@@ -5917,7 +5767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 74.93 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5941,7 +5791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 74.93 241.935 0)
 			(effects
 				(font
@@ -6049,7 +5899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 184.15 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6073,7 +5923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 184.15 230.505 0)
 			(effects
 				(font
@@ -6142,7 +5992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 156.845 69.85 0)
 			(effects
 				(font
@@ -6390,7 +6240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 139.7 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6416,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 137.795 58.42 0)
 			(effects
 				(font
@@ -6621,7 +6471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 91.44 264.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6645,7 +6495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 91.44 266.065 0)
 			(effects
 				(font
@@ -6688,7 +6538,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device_GOST:CP")
+		(lib_id "Device_GOST:C")
 		(at 196.85 257.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6714,7 +6564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" ""
 			(at 198.755 257.81 0)
 			(effects
 				(font
@@ -6916,7 +6766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" ""
 			(at 103.505 69.85 0)
 			(effects
 				(font
