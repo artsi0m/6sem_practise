@@ -1,0 +1,16 @@
+;;; -*- mode: adoc; -*-
+= PCB project of RS485 — RS232 converter from 6 semester practise in BSUIR =
+
+
+|===
+| Folder | Сontent
+
+| kicad-rs-converter
+| PCB project in KiCAD
+
+| paper
+| practise report
+
+| SEL
+| structured element list (Перечень элементов)
+|===
