@@ -1,4 +1,4 @@
-;;; -*- mode: adoc; -*-
+/// -*- mode: adoc; -*-
 = PCB project of RS485 — RS232 converter from 6 semester practise in BSUIR =
 
 
