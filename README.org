@@ -1,8 +1,17 @@
-*  PCB project of RS485 — RS232 converter from 6 semester practise in BSUIR
-
-
+**  PCB project of RS485 — RS232 converter from 6 semester practise in BSUIR
 
 | Folder             | Сontent                                      |
 | kicad-rs-converter | PCB project in KiCAD                         |
 | paper              | practise report                              |
 | SEL                | structured element list (Перечень элементов) |
+
+*** Original schematic
+
+Original schematic was brought from Radio Locman magizine:
+https://www.radiolocman.com/shem/schematics.html?di=64700
+But DB9 connector was excluded.
+
+
+Оригинальная схема была взята из журнала Радио Лоцман:
+https://www.rlocman.ru/shem/schematics.html?di=64700
+Однако разъём DB9 не использовался.
