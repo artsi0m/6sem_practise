@@ -2498,10 +2498,22 @@
 		(uuid "35b75e3d-ff1a-499f-9b2c-32350e8a7666")
 	)
 	(junction
+		(at 196.85 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3795d7a7-3b8c-4915-9355-f021863d5b8f")
+	)
+	(junction
 		(at 372.11 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40e8e5a9-470e-4787-88ad-f001aa8e206d")
+	)
+	(junction
+		(at 219.71 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e4e1ab-cab5-40f3-9c4a-b629eb27ce82")
 	)
 	(junction
 		(at 139.7 82.55)
@@ -2510,22 +2522,22 @@
 		(uuid "4d8545b0-d6f9-4996-9f5e-bf8ee4602bfe")
 	)
 	(junction
+		(at 232.41 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "521e1e60-7d20-4867-aef0-0a2df13a0658")
+	)
+	(junction
+		(at 236.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "577b4b32-216b-4a68-ac19-054c915210c1")
+	)
+	(junction
 		(at 321.31 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58d2eba6-9157-4be2-aa2d-368b60de16d9")
-	)
-	(junction
-		(at 196.85 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bf5bab5-7519-4a21-9ade-5ab2746fe0a2")
-	)
-	(junction
-		(at 227.33 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e5e47a3-9ccd-48f8-80a1-5db4d82c3933")
 	)
 	(junction
 		(at 257.81 156.21)
@@ -2538,12 +2550,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "840e8160-6279-4f84-984c-976e5ef49f85")
-	)
-	(junction
-		(at 236.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5498b75-5465-42fe-b899-2a4a1cc7b0f4")
 	)
 	(junction
 		(at 189.23 143.51)
@@ -2586,12 +2592,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf5f607-b6c8-48a5-8f9e-0b33af985ae7")
-	)
-	(junction
-		(at 218.44 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee7ceb2a-b532-4d75-a35e-f8967bfcaec2")
 	)
 	(junction
 		(at 257.81 133.35)
@@ -2787,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 43.18) (xy 236.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270366bc-b9ce-4ea7-9342-1cd17e72bddf")
+	)
+	(wire
+		(pts
 			(xy 118.11 50.8) (xy 118.11 57.15)
 		)
 		(stroke
@@ -2817,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 236.22 73.66)
+			(xy 196.85 66.04) (xy 236.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2867,6 +2877,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 156.21) (xy 227.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340745cc-95c2-4766-931f-3ae98415ed16")
+	)
+	(wire
+		(pts
 			(xy 189.23 143.51) (xy 257.81 143.51)
 		)
 		(stroke
@@ -2877,13 +2897,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 50.8) (xy 236.22 50.8)
+			(xy 196.85 66.04) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36d39a1e-35c5-43a0-8fd5-c7fd311fe40c")
+		(uuid "3570a6a4-685d-4cf3-931e-bbf59db731ce")
 	)
 	(wire
 		(pts
@@ -2937,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 73.66) (xy 236.22 50.8)
+			(xy 236.22 66.04) (xy 236.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2987,13 +3007,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 25.4) (xy 218.44 25.4)
+			(xy 158.75 25.4) (xy 219.71 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50872090-fb47-4951-967e-e36846d78c01")
+	)
+	(wire
+		(pts
+			(xy 232.41 156.21) (xy 257.81 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5318c6a0-fa0b-4408-914e-65d660a748b3")
 	)
 	(wire
 		(pts
@@ -3077,16 +3107,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6390d582-fa26-4791-a820-105d6261e41a")
-	)
-	(wire
-		(pts
 			(xy 149.86 82.55) (xy 158.75 82.55)
 		)
 		(stroke
@@ -3167,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 50.8) (xy 240.03 50.8)
+			(xy 236.22 43.18) (xy 240.03 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 25.4) (xy 218.44 50.8)
+			(xy 219.71 25.4) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3264,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "84c18de4-7d3d-42d3-9c92-886c676c8521")
-	)
-	(wire
-		(pts
-			(xy 196.85 50.8) (xy 196.85 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "899d5235-f0c1-49bf-8c10-e5787ee605f8")
 	)
 	(wire
 		(pts
@@ -3337,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 50.8) (xy 218.44 50.8)
+			(xy 214.63 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3407,16 +3417,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 222.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1257517-2b61-4ca4-af65-36ff5637b9e6")
-	)
-	(wire
-		(pts
 			(xy 36.83 224.79) (xy 36.83 133.35)
 		)
 		(stroke
@@ -3444,16 +3444,6 @@
 			(type default)
 		)
 		(uuid "ba8bf033-b7f6-4839-ab13-c8730e9e493e")
-	)
-	(wire
-		(pts
-			(xy 227.33 156.21) (xy 257.81 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1070ecb-5fa4-4606-aa89-4683f33ee553")
 	)
 	(wire
 		(pts
@@ -3497,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 58.42) (xy 227.33 156.21)
+			(xy 232.41 50.8) (xy 232.41 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3587,6 +3577,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 50.8) (xy 196.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71311c0-8bd0-42cb-86bd-f4ccc718c37e")
+	)
+	(wire
+		(pts
 			(xy 158.75 46.99) (xy 158.75 25.4)
 		)
 		(stroke
@@ -3624,6 +3624,16 @@
 			(type default)
 		)
 		(uuid "e09261f5-fa9f-4f67-81c8-0e841732a84b")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1612021-13c1-4bd5-8590-f3780e14578f")
 	)
 	(wire
 		(pts
@@ -3677,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 50.8) (xy 257.81 133.35)
+			(xy 257.81 43.18) (xy 257.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4622,7 +4632,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC807")
-		(at 227.33 53.34 90)
+		(at 227.33 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +4641,7 @@
 		(fields_autoplaced yes)
 		(uuid "68ac180f-ec93-46e3-86cb-0018d7980588")
 		(property "Reference" "VT1"
-			(at 227.33 44.45 90)
+			(at 227.33 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4649,7 @@
 			)
 		)
 		(property "Value" "BC807"
-			(at 227.33 46.99 90)
+			(at 227.33 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4657,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 229.235 48.26 0)
+			(at 225.425 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4668,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC808-D.pdf"
-			(at 227.33 53.34 0)
+			(at 227.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4678,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, SOT-23"
-			(at 227.33 53.34 0)
+			(at 227.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5015,7 @@
 	)
 	(symbol
 		(lib_id "Device_GOST:R_0,25W")
-		(at 248.92 50.8 180)
+		(at 248.92 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5013,7 +5023,7 @@
 		(dnp no)
 		(uuid "77e13b2c-7f3d-4dd1-94af-b306d26d7eee")
 		(property "Reference" "R6"
-			(at 248.666 46.482 0)
+			(at 248.666 38.862 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -5021,7 +5031,7 @@
 			)
 		)
 		(property "Value" "2к2"
-			(at 248.92 55.118 0)
+			(at 248.92 47.498 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -5029,7 +5039,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 251.46 51.435 0)
+			(at 251.46 43.815 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5038,7 +5048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.285 46.355 0)
+			(at 248.285 38.735 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5047,7 +5057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 50.8 0)
+			(at 248.92 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
