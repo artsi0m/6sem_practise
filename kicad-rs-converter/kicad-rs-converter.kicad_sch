@@ -10,7 +10,7 @@
 		(company "ООО «РТЕ Сервис»")
 		(comment 1 "465223-13")
 		(comment 2 "Корякин")
-		(comment 3 "Добротский")
+		(comment 3 "Дубровский")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic_GOST:CONN_2"
