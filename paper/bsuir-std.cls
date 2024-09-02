@@ -13,11 +13,9 @@
 
 \LoadClass[a4paper,14pt,emptystyle]{article}
 
-% Почему раньше был использован класс eskdx?
-% Главным образом потом что он позволяет
-% - Делать секции по ГОСТ 2.105-95
-% - Писать спецификацию
-% - Не подгружать пакет geometry, отступы уже в соответсвии с приложением Л СТП 
+%%%%%%%%%%
+% Пакеты %
+%%%%%%%%%%
 
 % Чтобы сделать отступы по СТП-2024 приложение Л
 \RequirePackage{geometry}
@@ -33,16 +31,34 @@
 % Чтобы более гибко настроить межстрочный интервал в списках и перечислениях
 \RequirePackage{enumitem} % https://tex.stackexchange.com/a/519982
 
-% Картинки^W Иллюстрации
-\RequirePackage{graphicx}
+\RequirePackage{graphicx} % Картинки^W Иллюстрации
+
 % Подписи к картинкам.
 \RequirePackage{caption}
-
 \RequirePackage{amsmath}
 \RequirePackage{unicode-math}
 
-\RequirePackage{iftex} 
+%%%%%%%
+% СТП %
+%%%%%%%
 
+% интервал между строк
+% В СТП-2017 не оговорен, просто сказано в пункте 2.1.1
+% В СТП-2024 интервал уже оговорен и равен единице
+% «межстрочный интервал – 1,0 (18 пунктов),»
+% 40 +- 3 строки на страницу
+\linespread{1}
+\RequirePackage{setspace}
+\setstretch{1}
+
+% Приложение Л. СТП-2024
+\geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
+
+%%%%%%%%%%%%%%%%%%%
+% ifxetex section %
+%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{iftex}
 % Я использую XeLaTeX потому что это позволяет использовать системный
 % Times New Roman
 \ifXeTeX
@@ -51,7 +67,7 @@
   %% устанавливает второй язык документа
   \setotherlanguage{english}
 
-  % СТП-2017 пункт 2.1.1
+  % СТП-2024 пункт 2.1.1
   % Устанавливаем основным шрифтом системный Times new Roman
   \setmainfont{Times New Roman}
   \newfontfamily{\cyrillicfont}{Times New Roman}
@@ -64,14 +80,14 @@
 
   %% Убираем предупреждение о использовании команды \cyr из eskdx
   \RequirePackage{xecyr} 
+  % Почему раньше был использован класс eskdx?
+  % Главным образом потом что он позволяет
+  % - Делать секции по ГОСТ 2.105-95
+  % - Писать спецификацию
+  % - Не подгружать пакет geometry, отступы уже в соответсвии с приложением Л СТП 
 
-%  \setmathfont{Cambria Math}
 
-  % интервал между строк
-  % В СТП-2017 не оговорен, просто сказано в пункте 2.1.1
-  % В СТП-2024 интервал уже оговорен и составляет 18 пунктов
-  % 40 +- 3 строки на страницу
-  \RequirePackage{setspace}
-  \setstretch{1}
+  % \setmathfont{Cambria Math} 
+
 \fi
 
