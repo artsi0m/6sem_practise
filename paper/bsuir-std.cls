@@ -35,6 +35,7 @@
 
 % Подписи к картинкам.
 \RequirePackage{caption}
+
 \RequirePackage{amsmath}
 \RequirePackage{unicode-math}
 
@@ -53,6 +54,10 @@
 
 % Приложение Л. СТП-2024
 \geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
+
+% СТП-2024 Пункт 2.1.1
+% «абзацный отступ – 1,25 см»
+\setlength{\parindent}{1.25cm}
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
