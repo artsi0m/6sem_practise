@@ -68,7 +68,7 @@
   %% Убираем предупреждение о использовании команды \cyr из eskdx
   \RequirePackage{xecyr} 
 
-  \setmathfont{Cambria Math}
+%  \setmathfont{Cambria Math}
 
   % интервал между строк
   % В СТП-2017 не оговорен, просто сказано в пункте 2.1.1
