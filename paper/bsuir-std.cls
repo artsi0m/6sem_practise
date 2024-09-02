@@ -59,7 +59,9 @@
   % СТП-2017 пункт 2.1.1
   % Устанавливаем основным шрифтом системный Times new Roman
   \setmainfont{Times New Roman}
-  % Выставляем в качестве моноширинного шрифта системный Courier
+  \newfontfamily{\cyrillicfont}{Times New Roman}
+  \newfontfamily{\cyrillicfontsf}{Times New Roman}
+ % Выставляем в качестве моноширинного шрифта системный Courier
   \setmonofont{Courier New}
   \newfontfamily{\cyrillicfonttt}{Courier New}
 
