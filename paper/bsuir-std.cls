@@ -57,7 +57,15 @@
 
 % СТП-2024 Пункт 2.1.1
 % «абзацный отступ – 1,25 см»
-\setlength{\parindent}{1.25cm}
+\setlength{\parindent}{12.5mm}
+
+% У списков по СТП такой же межстрочный интервал
+\setlist{nosep, % or noitemsep, 
+  parsep=1pt,
+  labelindent = \parindent,
+  leftmargin = *
+}
+
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
