@@ -60,12 +60,14 @@
 \setlength{\parindent}{12.5mm}
 
 % У списков по СТП такой же межстрочный интервал
-\setlist{nosep, % or noitemsep, 
-  parsep=1pt,
+\setlist{nosep,
   labelindent = \parindent,
   leftmargin = *
 }
 
+
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
