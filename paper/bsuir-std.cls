@@ -59,10 +59,13 @@
 % «абзацный отступ – 1,25 см»
 \setlength{\parindent}{12.5mm}
 
-% У списков по СТП такой же межстрочный интервал
-\setlist{nosep,
+\setlist[enumerate]{
+  label = \arabic* , % Поставить номер без точки
+
+  % У списков по СТП такой межстрочный интервал
+  nosep,
   labelindent = \parindent,
-  leftmargin = *
+  leftmargin = *,
 }
 
 
