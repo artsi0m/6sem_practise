@@ -11,7 +11,7 @@
 \ProvidesClass{bsuir-std}[2024/09/02 Class conforming to BSUIR standard]
 
 
-\LoadClass[a4paper,14pt]{article}
+\LoadClass[a4paper,14pt]{extarticle}
 
 %%%%%%%%%%
 % Пакеты %
