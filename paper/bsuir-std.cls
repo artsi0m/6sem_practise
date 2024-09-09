@@ -8,7 +8,7 @@
 %%% хотя я ещё auctex не особо пользовался
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/09/02 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2024/09/06 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
