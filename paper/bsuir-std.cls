@@ -1,14 +1,11 @@
-%%% Local Variables: 
+%%% Local Variables:
 %%% coding: utf-8
 %%% mode: latex
 %%% TeX-engine: xetex
-%%% End: 
-
-%%% Эта штука выше нужна для емакса и auctex,
-%%% хотя я ещё auctex не особо пользовался
+%%% End:
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/09/06 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2024/12/16 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -33,12 +30,28 @@
 
 \RequirePackage{graphicx} % Картинки^W Иллюстрации
 
+% Картинки и другие float'ы там где написал инклюд через  H
+\RequirePackage{float}
+
 % Подписи к картинкам.
 \RequirePackage{caption}
+
+% titles
+\RequirePackage{titlesec}
 
 \RequirePackage{amsmath}
 \RequirePackage{unicode-math}
 
+\RequirePackage{url}
+
+\RequirePackage{tocbasic}
+
+\RequirePackage{setspace}
+
+\RequirePackage{caption}
+
+\RequirePackage{lscape} % for rotated tables
+\RequirePackage{rotating}
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -48,9 +61,19 @@
 % В СТП-2024 интервал уже оговорен и равен единице
 % «межстрочный интервал – 1,0 (18 пунктов),»
 % 40 +- 3 строки на страницу
-\linespread{1}
-\RequirePackage{setspace}
+\singlespacing
+
 \setstretch{1}
+
+% Содержание по СТП
+% Look at comadocs for setting up toc
+% https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/koma-script/doc/scrguide-en.pdf
+\DeclareTOCStyleEntries[
+  beforeskip=0pt, % интервал
+  linefill=\dotfill,
+]{tocline}{section,subsection,subsubsection}
+
+
 
 % Приложение Л. СТП-2024
 \geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
@@ -59,18 +82,60 @@
 % «абзацный отступ – 1,25 см»
 \setlength{\parindent}{12.5mm}
 
-\setlist[enumerate]{
-  label = \arabic* , % Поставить номер без точки
 
-  % У списков по СТП такой межстрочный интервал
-  nosep,
+\setlist[enumerate, 1]{
+  label = \arabic* , % Поставить номер без точки
+  nosep,   % У списков по СТП такой межстрочный интервал
+  itemindent = 15mm,
+  labelindent = 12.5mm,
+  leftmargin = *,
+}
+
+\AddEnumerateCounter{\asbuk}{\russian@asbuk@alph}{щ} % section 8.1
+
+\setlist[enumerate, 2]{ % Второй уровень в нумерованных перечислениях
+  label = \asbuk*) ,
+  nosep,   % У списков по СТП такой межстрочный интервал
   labelindent = \parindent,
   leftmargin = *,
 }
 
+\setlist[itemize, 1]{ % Первый уровень в нумерованных перечислениях
+  label = \textendash,
+  nosep,   % У списков по СТП такой межстрочный интервал
+  labelindent = 12.5mm,
+  leftmargin = *,
+}
 
+% Считать рисунки и таблицы в пределах глав.
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
+
+% Оглавление секций:
+% Отсуствие точек у номеров
+% Верхний регистр
+%
+% https://tex.stackexchange.com/a/324041
+% https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
+\titleformat{\section}[block]
+{\normalfont\Large\bfseries}{\thesection}{0.4em}{\MakeUppercase}
+
+\titleformat{name=\section,numberless}[block]
+{\normalfont\Large\bfseries}{}{0.4em \centering}{\MakeUppercase}
+
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{0.4em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{0.4em}{}
+
+\numberwithin{equation}{section}
+
+% Нумерация и подписи к рисункам
+\captionsetup[figure]{name={Рисунок},}
+\numberwithin{figure}{section}
+
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
@@ -97,7 +162,7 @@
   \providecommand{\No}{\textnumero}
 
   %% Убираем предупреждение о использовании команды \cyr из eskdx
-  \RequirePackage{xecyr} 
+  \RequirePackage{xecyr}
   % Почему раньше был использован класс eskdx?
   % Главным образом потом что он позволяет
   % - Делать секции по ГОСТ 2.105-95
@@ -105,7 +170,7 @@
   % - Не подгружать пакет geometry, отступы уже в соответсвии с приложением Л СТП 
 
 
-  % \setmathfont{Cambria Math} 
+  % \setmathfont{Cambria Math}
 
 \fi
 
